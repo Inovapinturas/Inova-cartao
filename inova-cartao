@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inova Pinturas - Cartão Digital</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf8f3;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+    }
+    .card {
+      max-width: 400px;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .card img {
+      max-width: 150px;
+      margin-bottom: 20px;
+    }
+    .card h1 {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #222;
+    }
+    .card p {
+      font-size: 16px;
+      color: #444;
+      margin: 10px 0;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background-color: #2b84d9;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    .button:hover {
+      background-color: #1e6cb2;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="inova_logo.png" alt="Logo Inova Pinturas">
+    <h1>Inova Pinturas</h1>
+    <p>Pintura residencial e comercial</p>
+    <p>Reparo de paredes, textura, grafiato,<br> mármore e cimento queimado</p>
+    <p>Atendimento em São José dos Pinhais, Curitiba e região</p>
+    <a class="button" href="https://forms.gle/seu-link-aqui" target="_blank">Agendar Orçamento</a>
+    <p style="margin-top: 20px; font-size: 14px;">WhatsApp: <a href="https://wa.me/5541996681006">(41) 99668-1006</a></p>
+  </div>
+</body>
+</html>
